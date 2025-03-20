@@ -1,0 +1,35 @@
+{
+  "waste_management": {"regions":[{"region_name": "North","districts": [{"district_name": "District 1","locations": [{"location_name": "Location A","users": [
+                  {
+                    "user_id": "U001",
+                    "waste_type": "Recyclables",
+                    "quantity_tons": 1.5,
+                    "date_submitted": "2024-01-01",
+                    "date_collected": "2024-01-02"
+                  }
+                ]}]}]},
+      {
+        "region_name": "South",
+        "districts": [
+          {
+            "district_name": "District 2",
+            "locations": [
+              {
+                "location_name": "Location B",
+                "users": [
+                  {
+                    "user_id": "U002",
+                    "waste_type": "Organic",
+                    "quantity_tons": 2.0,
+                    "date_submitted": "2024-01-01",
+                    "date_collected": "2024-01-03"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
